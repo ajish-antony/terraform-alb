@@ -10,7 +10,7 @@ resource "aws_launch_configuration" "lc1" {
   key_name                      = var.key
   associate_public_ip_address   = true
   security_groups               = [ aws_security_group.sg.id ]
-  user_data                     = file("data1.sh")
+  user_data                     = file("user-data.sh")
   root_block_device            {
   volume_type                   = "gp2"
   volume_size                   = var.vol_size
@@ -32,7 +32,7 @@ resource "aws_launch_configuration" "lc2" {
   key_name                      = var.key
   associate_public_ip_address   = true
   security_groups               = [ aws_security_group.sg.id ]
-  user_data                     = file("data2.sh")
+  user_data                     = file("user-data.sh")
   root_block_device            {
   volume_type                   = "gp2"
   volume_size                   = var.vol_size
