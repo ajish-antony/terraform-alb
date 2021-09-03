@@ -31,7 +31,7 @@ The basic overview of the terraform code, as I have customized the environment f
 - IAM user with necessary privileges
 - Knowledge in AWS service includes ALB, Auto Scaling VPC, EC2
 
-## Basic Architecture
+## Basic Overview Diagram
 ![
 alt_txt
 ](https://i.ibb.co/yNvc7bL/Untitled-Diagram-2.jpg)
