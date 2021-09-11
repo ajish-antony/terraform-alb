@@ -718,7 +718,7 @@ alt_txt
 
 ### User Customisation
 
-- The user needs to update the required values for the variables in the terraform.tfvars to make updations to the whole infrastructure. Consider the example values given below. 
+- The user needs to update the required values for the variables in the terraform.tfvars to make updations to the whole infrastructure and the userdata according to the requirement. Consider the example values given below. 
 
 ```sh
 #################################################
